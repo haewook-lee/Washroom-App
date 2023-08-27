@@ -1,5 +1,5 @@
 type RootStackParamList = {
     Home: undefined;
-    DetailedList: undefined;
-    ProximityMap: undefined;
+    ListScreen: undefined;
+    MapScreen: undefined;
   };

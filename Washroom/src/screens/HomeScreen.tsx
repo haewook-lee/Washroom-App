@@ -11,11 +11,11 @@ const HomeScreen: React.FC<HomeScreenProps> = ({ navigation }) => {
         <View>
             <Button
                 title="Go to Detailed List"
-                onPress={() => navigation.navigate('DetailedList')}
+                onPress={() => navigation.navigate('ListScreen')}
             />
             <Button
                 title="Go to Map"
-                onPress={() => navigation.navigate('ProximityMap')}
+                onPress={() => navigation.navigate('MapScreen')}
             />
         </View>
     )
