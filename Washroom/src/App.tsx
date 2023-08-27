@@ -25,6 +25,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import Cat from './components/Cat';
+
 type SectionProps = PropsWithChildren<{
   title: string;
 }>;
@@ -80,6 +82,7 @@ function App(): JSX.Element {
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
             screen and then come back to see your edits.
           </Section>
+          <Cat />
           <Section title="Testing">
             Hello! World!
           </Section>
